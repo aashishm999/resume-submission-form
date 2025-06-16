@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Resume Submission Form</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <label for="field-name">Field Name</label>
+        <input
+          type="text"
+          id="field-name"
+          name="field-name"
+          placeholder="Enter your field name"
+          required
+        />
+        <br />
+
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          id="full-name"
+          name="full-name"
+          placeholder="Enter your full name"
+          required
+        />
+        <br />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br />
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+        <br />
+
+        <label for="Date-of-Birth">Date of Birth</label>
+        <input type="date" id="Date-of-Birth" name="Date-of-Birth" required />
+        <br />
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+        <br />
+
+        <label for="martial-status">Martial Status</label>
+        <select name="martial-status" id="martial-status">
+          <option value="">Select</option>
+          <option>Single</option>
+          <option>Married</option>
+        </select>
+        <br />
+
+        <label for="nationality">Nationality</label>
+        <input type="text" id="nationality" name="nationality" required />
+        <br />
+
+        <label for="address">Address</label>
+        <textarea
+          id="address"
+          name="address"
+          placeholder="Enter your address"
+          required
+        ></textarea>
+        <br />
+
+        <label for="linkedin">LinkdeIn Profile</label>
+        <input
+          type="url"
+          id="linkedin"
+          name="linkedin"
+          placeholder="Enter LinkdeIn profile URL"
+        />
+        <br />
+
+        <label for="github">GitHub Profile</label>
+        <input
+          type="url"
+          id="github"
+          name="github"
+          placeholder="Enter GitHub profile URL"
+        />
+        <br />
+
+        <label for="photo">Upload Photo</label>
+        <input type="file" id="photo" name="photo" accept="image/*" /> <br />
+
+        <label for="resume">Upload Resume</label>
+        <input
+          type="file"
+          id="resume"
+          name="resume"
+          accept=".pdf,.doc,.docx"
+          required
+        />
+        <br />
+
+        <label for="career-objectives">Career Objectives</label>
+        <textarea
+          name="Objectives"
+          id="Objectives"
+          rows="2"
+          required
+        ></textarea>
+        <br />
+
+        <label for="qualification">Heighest Qualification</label>
+        <input
+          type="text"
+          id="qualification"
+          name="qualification"
+          placeholder="Enter Heighest qualification"
+          required
+        />
+        <br />
+
+        <label for="college">Name of College/University</label>
+        <input
+          type="text"
+          id="college"
+          name="college"
+          placeholder="Enter College Nmae"
+          required
+        />
+        <br />
+
+        <label for="year-of-graduation">Year of Graduation</label>
+        <input
+          type="number"
+          id="year"
+          name="year"
+          placeholder="Enter your Graduation Year"
+          required
+        />
+        <br />
+
+        <label for="technical">Technical Skils</label>
+        <input type="text" name="skills" id="skills" placeholder="Your Skils" />
+        <br />
+
+        <label for="programming-languages">Programming Languages Known</label>
+        <input
+          type="text"
+          name="language"
+          id="language"
+          placeholder="Programming Languages"
+          required
+        />
+        <br />
+
+        <label for="certifications">Certifications (if any)</label>
+        <input
+          type="file"
+          name="certifications"
+          id="certifications"
+          accept="pdf"
+        />
+        <br />
+
+        <label for="experience">Work Experience (years)</label>
+        <input
+          type="number"
+          name="experience"
+          id="experience"
+          placeholder="Enter years"
+        />
+        <br />
+
+        <label for="company">Company you worked at</label>
+        <input
+          type="text"
+          name="company"
+          id="comppany"
+          placeholder="Enter Company Name"
+        />
+        <br />
+
+        <label for="job-role">Your Job Role</label>
+        <input
+          type="text"
+          name="job-role"
+          id="job-role"
+          placeholder="Enter your Job Role"
+        />
+        <br />
+
+        <label for="languages">Languages Known</label>
+        <textarea id="languages" name="languages" rows="2"></textarea> <br />
+
+        <label for="hobbies">Hobbies</label>
+        <textarea id="hobbies" name="hobbies" rows="2"></textarea> <br />
+        <br />
+
+        <div class="form-check">
+          <label class="form-check-label">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              name=""
+              id=""
+              value="checkedValue"
+              checked
+            />
+            I agree to the terms and conditions and the given information is
+            true.
+          </label>
+        </div>
+
+        <button type="submit">Submit REsume</button>
+      </form>
+    </div>
+  </body>
+</html>
